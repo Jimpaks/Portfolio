@@ -15,7 +15,7 @@ const Hero = () => {
               Hi, my name is
             </span>
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-portfolio-lightest mb-4 animate-fade-in" style={{ animationDelay: '100ms' }}>
-              Your Name
+              Tama Ak
             </h1>
             <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-portfolio-text mb-6 animate-fade-in" style={{ animationDelay: '200ms' }}>
               I build web experiences.
