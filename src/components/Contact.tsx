@@ -2,7 +2,7 @@
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { Mail, GitHub, Linkedin } from "lucide-react";
+import { Mail, Github, Linkedin } from "lucide-react";
 
 const Contact = () => {
   return (
@@ -66,7 +66,7 @@ const Contact = () => {
             className="text-portfolio-text hover:text-portfolio-secondary transition-colors"
             aria-label="GitHub"
           >
-            <GitHub size={24} />
+            <Github size={24} />
           </a>
           <a 
             href="#" 
