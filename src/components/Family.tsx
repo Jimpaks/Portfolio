@@ -7,7 +7,7 @@ const Family = () => {
     <section id="family" className="bg-portfolio-primary/95 section-container">
       <h2 className="section-heading">Family Background</h2>
       
-      <div className="grid md:grid-cols-2 gap-12 mt-12">
+      <div className="grid md:grid-cols-1 gap-12 mt-12">
         <div className="animate-slide-up">
           <Card className="bg-portfolio-primary/50 border border-portfolio-text/20 overflow-hidden">
             <CardContent className="p-6">
@@ -16,36 +16,19 @@ const Family = () => {
                 <h3 className="text-xl font-semibold text-portfolio-lightest">Family Roots</h3>
               </div>
               <p className="text-portfolio-text mb-4">
-                I come from a close-knit family with strong values of education, perseverance, and creativity.
-                My parents always encouraged my interest in technology from a young age, providing me with
-                opportunities to explore and learn.
-              </p>
-              <p className="text-portfolio-text">
-                Growing up in a supportive environment has shaped my approach to both work and life.
-                I value collaboration, open communication, and bringing diverse perspectives together
-                to solve problems - all values that were instilled in me through my family upbringing.
-              </p>
-            </CardContent>
-          </Card>
-        </div>
-        
-        <div className="animate-slide-up" style={{ animationDelay: '200ms' }}>
-          <Card className="bg-portfolio-primary/50 border border-portfolio-text/20 h-full">
-            <CardContent className="p-6">
-              <h3 className="text-xl font-semibold text-portfolio-lightest mb-4">Cultural Influence</h3>
-              <p className="text-portfolio-text mb-4">
-                My multicultural background has given me a unique perspective that influences my work.
-                Being exposed to different traditions, languages, and ways of thinking has helped me
-                become adaptable and open-minded.
+                I come from a humble and hardworking family. My parents run a small banana vending 
+                business in our local community. They've always encouraged me to pursue education
+                and follow my passion for technology.
               </p>
               <p className="text-portfolio-text mb-4">
-                These diverse influences have taught me to approach problems from multiple angles and
-                to consider different user experiences when designing digital products. I believe this
-                cultural awareness makes me a more thoughtful and inclusive developer.
+                Growing up helping with the family business taught me valuable lessons about
+                dedication, customer service, and managing responsibilities - skills that I find
+                increasingly relevant in my web development journey.
               </p>
               <p className="text-portfolio-text">
-                Today, I continue to draw inspiration from my family's journey and the values they've
-                instilled in me throughout my professional career.
+                I also have a younger sister who is still in school. Being an older sibling has helped
+                me develop patience and communication skills, which are essential when working
+                with clients and explaining technical concepts in simple terms.
               </p>
             </CardContent>
           </Card>

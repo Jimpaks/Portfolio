@@ -1,7 +1,6 @@
 
 import { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
-import { Button } from '@/components/ui/button';
 
 const navLinks = [
   { name: 'About', href: '#about' },
@@ -48,30 +47,21 @@ const Navbar = () => {
           href="#hero" 
           className="text-portfolio-secondary font-mono text-xl font-bold"
         >
-          portfolio<span className="text-portfolio-white">.dev</span>
+          PORTFOLIO
         </a>
 
         {/* Desktop Navigation */}
         <ul className="hidden md:flex space-x-8">
-          {navLinks.map((link, index) => (
+          {navLinks.map((link) => (
             <li key={link.name}>
               <a 
                 href={link.href}
                 className="text-portfolio-text hover:text-portfolio-secondary transition-colors duration-300 font-semibold"
               >
-                <span className="text-portfolio-secondary font-mono mr-1">0{index + 1}.</span>
                 {link.name}
               </a>
             </li>
           ))}
-          <li>
-            <Button 
-              variant="outline" 
-              className="border-portfolio-secondary text-portfolio-secondary hover:bg-portfolio-secondary/10"
-            >
-              Resume
-            </Button>
-          </li>
         </ul>
 
         {/* Mobile menu button */}
@@ -92,27 +82,18 @@ const Navbar = () => {
       >
         <div className="flex flex-col h-full py-8 px-6">
           <ul className="flex flex-col space-y-6">
-            {navLinks.map((link, index) => (
+            {navLinks.map((link) => (
               <li key={link.name}>
                 <a 
                   href={link.href}
                   className="text-portfolio-text hover:text-portfolio-secondary transition-colors duration-300 text-lg flex items-center"
                   onClick={() => setIsMenuOpen(false)}
                 >
-                  <span className="text-portfolio-secondary font-mono mr-2">0{index + 1}.</span>
                   {link.name}
                 </a>
               </li>
             ))}
           </ul>
-          <div className="mt-auto">
-            <Button 
-              variant="outline" 
-              className="w-full border-portfolio-secondary text-portfolio-secondary hover:bg-portfolio-secondary/10"
-            >
-              Resume
-            </Button>
-          </div>
         </div>
       </div>
       

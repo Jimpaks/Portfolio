@@ -1,27 +1,17 @@
 
 import { Card, CardContent } from "@/components/ui/card";
-import { BookOpen, Music, Map, Code } from "lucide-react";
+import { Basketball } from "lucide-react";
 
 const interestData = [
   {
-    title: "Reading",
-    icon: BookOpen,
-    description: "I enjoy reading books on technology, psychology, and science fiction. Books provide me with new perspectives and ideas that often influence my creative work."
+    title: "Basketball Player",
+    icon: Basketball,
+    description: "I'm passionate about basketball and play regularly. The sport has taught me about teamwork, strategy, and perseverance - values that carry over into my web development work."
   },
   {
-    title: "Music Production",
-    icon: Music,
-    description: "Creating and mixing music is one of my favorite ways to unwind. There's a surprising amount of overlap between music production and coding - both require attention to detail and creative problem-solving."
-  },
-  {
-    title: "Traveling",
-    icon: Map,
-    description: "Exploring new places gives me inspiration and broadens my worldview. I try to visit at least two new countries each year to experience different cultures and environments."
-  },
-  {
-    title: "Open Source",
-    icon: Code,
-    description: "I'm passionate about contributing to open source projects. It's a great way to learn from others, give back to the community, and collaborate with developers from around the world."
+    title: "Video Games",
+    icon: Basketball, // Using Basketball icon as placeholder since we don't have a gaming icon in the allowed list
+    description: "In my free time, I enjoy playing video games. Gaming has sparked my interest in technology and interactive experiences, which influences how I think about user experience in web development."
   }
 ];
 
