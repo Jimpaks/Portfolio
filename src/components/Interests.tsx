@@ -1,16 +1,16 @@
 
 import { Card, CardContent } from "@/components/ui/card";
-import { Basketball } from "lucide-react";
+import { Gamepad2, Dumbbell } from "lucide-react";
 
 const interestData = [
   {
     title: "Basketball Player",
-    icon: Basketball,
+    icon: Dumbbell,
     description: "I'm passionate about basketball and play regularly. The sport has taught me about teamwork, strategy, and perseverance - values that carry over into my web development work."
   },
   {
     title: "Video Games",
-    icon: Basketball, // Using Basketball icon as placeholder since we don't have a gaming icon in the allowed list
+    icon: Gamepad2,
     description: "In my free time, I enjoy playing video games. Gaming has sparked my interest in technology and interactive experiences, which influences how I think about user experience in web development."
   }
 ];
